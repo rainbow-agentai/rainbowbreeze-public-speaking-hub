@@ -19,7 +19,7 @@ Build a professional, automated portfolio website for Alfredo Morresi (RainbowBr
 ### Phase 3: Tech Stack Selection (COMPLETED)
 - [x] **Framework:** [Astro](https://astro.build/)
 - [x] **Styling:** Tailwind CSS (v4)
-- [x] **Hosting:** [Vercel](https://vercel.com/)
+- [x] **Hosting:** [Vercel](https://rainbowbreeze-portolio.vercel.app/)
 
 ### Phase 4: Implementation (COMPLETED)
 1. [x] Initialize Repo.
