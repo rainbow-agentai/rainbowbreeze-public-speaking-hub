@@ -1,4 +1,4 @@
-# Project Roadmap: RainbowBreeze Public Speaker Website
+# Project Roadmap: RainbowBreeze Portfolio Website
 
 ## Goal
 Build a professional, automated portfolio website for Alfredo Morresi (RainbowBreeze) to showcase public speaking history, categorized by eras and topics, with a searchable archive and automated updates from WordPress.
