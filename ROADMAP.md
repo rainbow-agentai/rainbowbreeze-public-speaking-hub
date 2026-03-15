@@ -16,18 +16,17 @@ Build a professional, automated portfolio website for Alfredo Morresi (RainbowBr
 - [x] Define font pairings (Sans-serif, high-impact).
 - [x] **Awaiting Approval:** Confirm "Professional High-Contrast Tech" vibe.
 
-### Phase 3: Tech Stack Selection (DRAFT)
-- **Proposed Framework:** [Astro](https://astro.build/)
-  - *Why?* Incredible speed (static by default), perfect for a portfolio, easily pulls data from our JSON master list.
-- **Hosting:** [Vercel](https://vercel.com/)
-  - *Why?* Integrated GitHub support, instant previews, and reliable global CDN.
-- **Search Logic:** Client-side Fuse.js for instantaneous filtering without a backend.
+### Phase 3: Tech Stack Selection (COMPLETED)
+- [x] **Framework:** [Astro](https://astro.build/)
+- [x] **Styling:** Tailwind CSS (v4)
+- [x] **Hosting:** [Vercel](https://vercel.com/)
 
-### Phase 4: Implementation (NEXT)
-1. Initialize Repo.
-2. Build Home Page (Hero + Speaker Intro).
-3. Build Talk Archive (Search/Filter UI).
-4. Implement "Eras" timeline view.
+### Phase 4: Implementation (IN PROGRESS)
+1. [x] Initialize Repo.
+2. [x] Setup Astro + Tailwind.
+3. [x] Build Home Page (Hero + Speaker Intro + Eras).
+4. [ ] Build Talk Archive (Search/Filter UI).
+5. [ ] Implement "Eras" timeline view (Enhanced).
 
 ### Phase 5: Automation (FUTURE)
 - Implement `rainbowbreeze_public_speaker_sync` skill.
