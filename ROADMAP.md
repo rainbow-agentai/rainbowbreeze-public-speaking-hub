@@ -21,12 +21,12 @@ Build a professional, automated portfolio website for Alfredo Morresi (RainbowBr
 - [x] **Styling:** Tailwind CSS (v4)
 - [x] **Hosting:** [Vercel](https://vercel.com/)
 
-### Phase 4: Implementation (IN PROGRESS)
+### Phase 4: Implementation (COMPLETED)
 1. [x] Initialize Repo.
 2. [x] Setup Astro + Tailwind.
 3. [x] Build Home Page (Hero + Speaker Intro + Eras).
-4. [ ] Build Talk Archive (Search/Filter UI).
-5. [ ] Implement "Eras" timeline view (Enhanced).
+4. [x] Build Talk Archive (Search/Filter UI with Fuse.js).
+5. [x] Implement "Eras" timeline view.
 
 ### Phase 5: Automation (FUTURE)
 - Implement `rainbowbreeze_public_speaker_sync` skill.

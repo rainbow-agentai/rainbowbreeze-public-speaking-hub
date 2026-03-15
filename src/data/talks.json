@@ -34,5 +34,35 @@
     "Leadership & Team Management",
     "Innovation & Emerging Tech",
     "Public Speaking & Engagement"
+  ],
+  "talks": [
+    {
+      "title": "Scaling Communities with AI",
+      "year": "2024",
+      "language": "EN",
+      "event": "CMX Summit",
+      "slides": "https://slideshare.net/example",
+      "video": "https://youtube.com/example"
+    },
+    {
+      "title": "Community Operations: The Secret Sauce",
+      "year": "2023",
+      "language": "EN",
+      "event": "DevRelCon London",
+      "slides": "https://slideshare.net/example"
+    },
+    {
+      "title": "Google Assistant for Everyone",
+      "year": "2019",
+      "language": "IT",
+      "event": "Codemotion Milan",
+      "video": "https://youtube.com/example"
+    },
+    {
+      "title": "The Future of Android Wear",
+      "year": "2014",
+      "language": "IT",
+      "event": "Droidcon Turin"
+    }
   ]
 }

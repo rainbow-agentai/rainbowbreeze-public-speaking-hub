@@ -1,8 +1,9 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import TalkArchive from '../components/TalkArchive';
 import talksData from '../data/talks.json';
 
-const { eras, taxonomy_pillars } = talksData;
+const { eras, taxonomy_pillars, talks } = talksData;
 ---
 
 <Layout title="RainbowBreeze | Portfolio Site">
@@ -19,7 +20,7 @@ const { eras, taxonomy_pillars } = talksData;
 		</header>
 
 		<!-- Eras Timeline -->
-		<section class="mb-24">
+		<section class="mb-32">
 			<h2 class="text-sm uppercase tracking-widest text-yellow-400 font-bold mb-12 flex items-center gap-4">
 				<span class="h-px w-8 bg-yellow-400"></span> THE ERAS
 			</h2>
@@ -47,6 +48,14 @@ const { eras, taxonomy_pillars } = talksData;
 			</div>
 		</section>
 
+		<!-- Talk Archive Section -->
+		<section id="archive" class="mb-32">
+			<h2 class="text-sm uppercase tracking-widest text-yellow-400 font-bold mb-12 flex items-center gap-4">
+				<span class="h-px w-8 bg-yellow-400"></span> TALK ARCHIVE
+			</h2>
+			<TalkArchive client:load talks={talks} />
+		</section>
+
 		<!-- Taxonomy / Pillars -->
 		<section>
 			<h2 class="text-sm uppercase tracking-widest text-yellow-400 font-bold mb-8 flex items-center gap-4">
@@ -61,7 +70,7 @@ const { eras, taxonomy_pillars } = talksData;
 			</div>
 		</section>
 
-		<footer class="mt-32 pt-12 border-t border-slate-900 text-slate-600 text-sm font-mono">
+		<footer class="mt-32 pt-12 border-t border-slate-900 text-slate-600 text-sm font-mono text-center">
 			&copy; {new Date().getFullYear()} ALFREDO MORRESI. PROCESSED BY SAMANTHA AI.
 		</footer>
 	</main>
