@@ -1,0 +1,38 @@
+{
+  "project": "RainbowBreeze Public Speaking Site",
+  "owner": "Pischello (Alfredo Morresi)",
+  "last_crawl": "2026-03-09",
+  "eras": [
+    {
+      "name": "The Foundation",
+      "years": "2005-2010",
+      "focus": "Open Source, Security, Communication Theory",
+      "notable_talks": ["LinuxBeach 2005 (Wireless Security)", "Communication Thesis (Cartoons, 2008)"]
+    },
+    {
+      "name": "Mobile & Cloud Revolution",
+      "years": "2011-2016",
+      "focus": "Android, Wearables, Google Cast, App Engine",
+      "notable_talks": ["Droidcon Turin (Android Wear)", "Codemotion (Google Cast)", "Native Android Dev (GTUG Milano)"]
+    },
+    {
+      "name": "Human-Centric Interface",
+      "years": "2017-2020",
+      "focus": "Conversational AI, Google Assistant, Sense of Community",
+      "notable_talks": ["Codemotion (Google Assistant)", "CLS Italy (Sense of Community)", "DevFest (Home Assistant)"]
+    },
+    {
+      "name": "Strategic Leadership & AI",
+      "years": "2021-2024",
+      "focus": "Community Operations, Leadership at Scale, AI for Managers",
+      "notable_talks": ["DevRelCon London (CommOps Team)", "CMX Summit (Scaling Communities)", "Google Community Summit (AI for Events)"]
+    }
+  ],
+  "taxonomy_pillars": [
+    "Community Strategy & Frameworks",
+    "Community Operations (CommOps)",
+    "Leadership & Team Management",
+    "Innovation & Emerging Tech",
+    "Public Speaking & Engagement"
+  ]
+}
